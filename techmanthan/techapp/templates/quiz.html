@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TECH-MANTHAN 2.0</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Black Ops One"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-image: url("{% static 'background.png' %}");
+        {% comment %} background-repeat: no-repeat; {% endcomment %}
+        background-size: cover;
+      }
+      .logo {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+      }
+      .event-logo {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .p {
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: 'Black Ops One';
+      }
+
+      {% comment %} .text {
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      } {% endcomment %}
+      .image {
+        height: 50px;
+        width: 100px;
+        margin-bottom: 20px;
+      }
+
+      .event {
+        margin-bottom: 20px;
+        font-weight: bold;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'eventlogo.png' %}"
+            alt="Event Logo"
+            class="event-logo mx-auto d-block rounded-circle"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p style="color: white" class="p">TECH-MANTHAN 2.0</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'bca_bsc.png' %}"
+            alt="Rectangular Image"
+            class="image mx-auto d-block rounded"
+          />
+        </div>
+      </div>
+
+      <div class="container my-3" style="color: white">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h1 class="text-center" style="color: #f6ce08">BATTLE OF BRAINS</h1>
+            <h4 class="text-center" style="color: #e656ab">
+               -So you think you are smart, Prove it!!
+            </h4>
+            <h4 class="text">
+              It’s a group event for those who are interested to showcase their skills.<br>
+Rules and Regulations:<br>
+1.Teams should contain only two members.<br>
+2.Registration Before 26th April 2023 would be considered<br>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="p-4" style="color: #f5693c">Instructions :</h3>
+    <div style="color: white">
+      <ol class="my-4">
+        <li>
+         First Round:<br>
+1.First round will be handled at lab. <br>
+2.This round will be windup within 30 minutes. <br>
+3.participant should login to the website and answering the questions. <br>
+3.There will be no negative marks for wrong answer. <br>
+        </li>
+        <li>Second Round: <br>
+1.Second round will be handled at auditorium. <br>
+2.This round will be windup within 10 minutes. <br>
+3.There will be no negative marks for wrong answer. <br>
+4.If the answer is correct each question carries 10 points. <br>
+5.If you answered the passed question it carries 5 points. <br></li>
+        <li>Third Round: <br>
+1.No options are provided. <br>
+2.This round will be windup within 10 minutes. <br>
+3.If the answer is wrong there might be loss of 5 marks for each. <br>
+4.If the answer is correct each question carries 10 points. <br>
+5.If you answered the passed question it carries 5 points. <br> </li>
+        <li>Fourth Round: <br>
+1.This round will be windup within 10 minutes. <br>
+2.If the answer is wrong there might be loss of 5 marks for each. <br>
+3.If the answer is correct each question carries 10 points. <br>
+4.If you answered the passed question it carries 5 points. <br></li>
+        
+      </ol>
+      <div class="text-center">
+        <a href="https://forms.gle/1UwLiqouMeDMkg1K6" class="btn btn-primary btn-lg">Register Now</a>
+      </div>
+      <p class="mt-5">Event Handler: <strong>Sumanth III BCA</strong></p>
+      <p>Contact: <strong>9964861204</strong></p>
+    </div>
+  </body>
+</html>

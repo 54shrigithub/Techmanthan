@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TECH-MANTHAN 2.0</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Black Ops One"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-image: url("{% static 'background.png' %}");
+        {% comment %} background-repeat: no-repeat; {% endcomment %}
+        background-size: cover;
+      }
+      .logo {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+      }
+      .event-logo {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .p {
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: 'Black Ops One';
+      }
+
+      {% comment %} .text {
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      } {% endcomment %}
+      .image {
+        height: 50px;
+        width: 100px;
+        margin-bottom: 20px;
+      }
+
+      .event {
+        margin-bottom: 20px;
+        font-weight: bold;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'eventlogo.png' %}"
+            alt="Event Logo"
+            class="event-logo mx-auto d-block rounded-circle"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p style="color: white" class="p">TECH-MANTHAN 2.0</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'bca_bsc.png' %}"
+            alt="Rectangular Image"
+            class="image mx-auto d-block rounded"
+          />
+        </div>
+      </div>
+
+      <div class="container my-3" style="color: white">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h1 class="text-center" style="color: #f6ce08">Model making</h1>
+            <h4 class="text-center" style="color: #e656ab">
+              -Let's see what you can build. 
+            </h4>
+            <h4 class="text">
+              A event consisting of three members, Have to bring a Working or a Non working model related to Science Or IT
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="p-4" style="color: #f5693c">Instructions :</h3>
+    <div style="color: white">
+      <ol class="my-4">
+        <li>Compulsory Three Students in a group. </li>
+        <li>Models should be prepared at home Or at college during free time. </li>
+        <li>
+          Brief explanation and proper presentation is expected.
+        </li>
+        <li>
+           Time duration Minimum 5 minutes, Maximum 10 minutes. </li>
+        </li>
+
+        <li>
+         Judges decision will be considered as final . 
+        </li>
+        
+      </ol>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary btn-lg">Register Now</a>
+      </div>
+      <p class="mt-5">Event Handler: <strong>Manjunath III BSC</strong></p>
+      <p>Contact: <strong>9945735489</strong></p>
+    </div>
+  </body>
+</html>
+

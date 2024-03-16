@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TECH-MANTHAN 2.0</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Black Ops One"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-image: url("{% static 'background.png' %}");
+        {% comment %} background-repeat: no-repeat; {% endcomment %}
+        background-size: cover;
+      }
+      .logo {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+      }
+      .event-logo {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .p {
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: 'Black Ops One';
+      }
+
+      {% comment %} .text {
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      } {% endcomment %}
+      .image {
+        height: 50px;
+        width: 100px;
+        margin-bottom: 20px;
+      }
+
+      .event {
+        margin-bottom: 20px;
+        font-weight: bold;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'eventlogo.png' %}"
+            alt="Event Logo"
+            class="event-logo mx-auto d-block rounded-circle"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p style="color: white" class="p">TECH-MANTHAN 2.0</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <img
+            src="{% static 'bca_bsc.png' %}"
+            alt="Rectangular Image"
+            class="image mx-auto d-block rounded"
+          />
+        </div>
+      </div>
+
+      <div class="container my-3" style="color: white">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h1 class="text-center" style="color: #f6ce08">Reel-Tape</h1>
+            <h4 class="text-center" style="color: #e656ab">
+-Record what you see.</h4>
+            <h4 class="text">
+It’s a solo event for those who are interested to showcase their videography and editing skills.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="p-4" style="color: #f5693c">Instructions :</h3>
+    <div style="color: white">
+      <ol class="my-4">
+        
+        <li>Only 5 students can participate from each class.</li>
+        <li>Only mobiles phones are allowed to record the video. </li>
+        <li>No camera attachment / accessories are allowed while recording the video.</li>
+        <li> Only you have to bring the mobile phones. (android / iPhone).</li>
+        <li> You have to use your by default camera app.(No other software / filters / templates are allowed to shoot the videos)</li>
+        <li> Editing applications will be decided by the organizers.
+(VN Video editor / INSHOT- video editor : remember you can't use the mod apk / premium 
+unlocked features / applications).</li>
+<li>The length of the video should be greater than 30 sec and less than 90 sec.</li>
+      </ol>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary btn-lg">Register Now</a>
+      </div>
+      <p class="mt-5">Event Handler: <strong>Shashank III BCA</strong></p>
+      <p>Contact: <strong>7090091610</strong></p>
+    </div>
+  </body>
+</html>
